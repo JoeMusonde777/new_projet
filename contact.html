@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVIDIA - Nous écrire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo NVIDIA" class="logo">
+            <span class="company-name">NVIDIA</span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="quisommesnous.html">Qui sommes nous</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Nous écrire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h1>Nous écrire</h1>
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="nom">Nom et Postnom :</label>
+                <input type="text" id="nom" name="nom" required placeholder="Ex: Musonde Mbayo">
+            </div>
+
+            <div class="form-group">
+                <label for="objectif">Objectif du message :</label>
+                <input type="text" id="objectif" name="objectif" required placeholder="Ex: Demande d'information sur les produits">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Votre message :</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Écrivez votre message ici..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-info">
+            <p>📍 2788 San Tomas Expressway, Santa Clara, CA 95051, États-Unis</p>
+            <p>📞 +1 (408) 486-2000 | ✉️ contact@nvidia-tech.fr</p>
+        </div>
+    </footer>
+</body>
+</html>
